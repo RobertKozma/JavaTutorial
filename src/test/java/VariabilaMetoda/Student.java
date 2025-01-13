@@ -30,12 +30,12 @@ public class Student {
     @Test
     public void prezentareStudent(){
 
-        Nume = "Kozma";
-        Prenume = "Robert";
-        Varsta = 42;
+        Nume = "Jon";
+        Prenume = "Doe";
+        Varsta = 32;
         Adresa = "str. Baker nr.9 London UK";
         Inaltime = 1.76;
-        Greutate = 83.50F;
+        Greutate = 75.50F;
         Sex = 'M';
         AreDiploma = true;
 
@@ -52,6 +52,7 @@ public class Student {
         System.out.println("Are studentul diploma?: " + AreDiploma);
 
         calculMedie();
+        System.out.println(getSalariu());
 
     }
 
@@ -63,5 +64,13 @@ public class Student {
         Integer Medie = (Nota1 + Nota2 + Nota3)/3;
         System.out.println("Media studentului este: " + Medie);
 
+    }
+
+    //metoda cu return
+
+    public Integer getSalariu(){
+
+        Integer salariu = 1000;
+        return salariu;
     }
 }

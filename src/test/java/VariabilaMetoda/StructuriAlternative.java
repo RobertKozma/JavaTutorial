@@ -13,13 +13,15 @@ public class StructuriAlternative {
 //        metodaVerificareNumar(5);
 
 //        metodaVerificareNrParPozitiv(4);
-        metodaVerificareNrParPozitiv(0);
-        metodaVerificareNrParPozitiv(1);
-        metodaVerificareNrParPozitiv(4);
-        metodaVerificareNrParPozitiv(9);
-        metodaVerificareNrParPozitiv(-1);
-        metodaVerificareNrParPozitiv(-2);
-        metodaVerificareNrParPozitiv(-3);
+//        metodaVerificareNrParPozitiv(0);
+//        metodaVerificareNrParPozitiv(1);
+//        metodaVerificareNrParPozitiv(4);
+//        metodaVerificareNrParPozitiv(9);
+//        metodaVerificareNrParPozitiv(-1);
+//        metodaVerificareNrParPozitiv(-2);
+//        metodaVerificareNrParPozitiv(-3);
+//        metodaVerificareNrParPozitiv(0);
+        zileSaptamana(3);
 
     }
 
@@ -52,8 +54,29 @@ public class StructuriAlternative {
             } else {
                 System.out.println("numarul " + Valoare + " este impar negativ");
             }
-        } else if (Valoare == 0) {
+        } else /*if (Valoare == 0)*/ {
             System.out.println("numarul " + Valoare + " este 0");
+        }
+    }
+
+    //exemplu switch case
+    public void zileSaptamana(Integer zi){
+
+        switch (zi){
+            case 1:
+                System.out.println("Astazi este luni");
+                break;
+            case 2:
+                System.out.println("Astazi este marti");
+                break;
+            case 3:
+                System.out.println("Astazi este miercuri");
+                break;
+            case 4:
+                System.out.println("Astazi este joi");
+                break;
+            default:
+                System.out.println("Nu mai sunt zile");
         }
     }
 }
