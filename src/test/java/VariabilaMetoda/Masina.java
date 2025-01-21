@@ -2,6 +2,8 @@ package VariabilaMetoda;
 
 import org.testng.annotations.Test;
 
+import java.util.Scanner;
+
 public class Masina {
 
     public String marca;
@@ -11,10 +13,11 @@ public class Masina {
     @Test
     public void metodaTest(){
 
-        dateMasina("Audi","Q7",2023);
-        dateMasina("VW","Golf",2020);
-        calculMedie(7.0,5.0);
-        calculMedie(8.0,8.0);
+//        dateMasina("Audi","Q7",2023);
+//        dateMasina("VW","Golf",2020);
+//        calculMedie(7.0,5.0);
+//        calculMedie(8.0,8.0);
+//        citireNote();
 
     }
 
@@ -41,6 +44,18 @@ public class Masina {
 
     }
 
+//    public void citireNote(){
+//
+//        System.out.println("Introdu o nota intre 1 si 10-4");
+//        Scanner scanner=new Scanner(System.in);
+//        int nota=scanner.nextInt();
+//        while (nota<0||nota>10){
+//            System.out.println("Nota "+nota+" trebuiesa fie intre 1 si 10");
+//            nota = scanner.nextInt();
+//        }
+//        System.out.println("Nota "+nota+" este intre 1 si 10");
+//
+//    }
 
 
 }
