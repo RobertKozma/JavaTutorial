@@ -19,8 +19,8 @@ public class Main {
 //        }
         //citireNote();
        // printareValoriWhile();
-        //printareValoridoWhile();
-        printareValoriFor();
+        printareValoridoWhile();
+        //printareValoriFor();
 
     }
 

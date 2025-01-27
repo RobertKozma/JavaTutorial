@@ -14,9 +14,8 @@ public class Multimi {
     public void metodaTest(){
         //colegiCurs();
         //colegiCursLista();
-       // categoriiObiecte();
-        tariOrase();
-
+        categoriiObiecte();
+//        tariOrase();
 
     }
 
